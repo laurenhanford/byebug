@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:latest
 
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \
